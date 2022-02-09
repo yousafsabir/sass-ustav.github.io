@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+  .showcase {
+    height: auto;
+
+    nav {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    &-content {
+      flex-direction: column;
+      img {
+        width: 70vw;
+      }
+    }
+  }
+}
